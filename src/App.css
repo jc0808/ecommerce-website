@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.header{
+  border: red 15px solid ;
+  text-align: center;
+  
+}
+
+
+/* Home Container */
+
+.container{
+  border: black 10px dashed;
+  height: 5900px;
+  padding: 20px;
+}
+
+.subHeader{
+  display: flex;
+  justify-content: end;
+  gap: 2%;
+}
+
+/* filters 1 */
+
+.f-container1{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.filters {
+  border: solid green 5px;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.filters label{
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.filters label:hover{
+  color: blue;
+}
+
+
+/* products container */
+
+.productsContainer{
+  border: 3px solid crimson;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.products{
+  border: 3px solid orange;
+  width: 80%;
+  height: 700px;
+  display:grid;
+  grid-template-columns: 300px 300px 300px;
+  
+  overflow-x: hidden;
+  padding: 20px;
+}
+
+.filters2{
+  border: solid 5px yellowgreen;
+  width: 20%;
+  display: grid;
+  height: fit-content;
+}
+
+.filters2 label{
+  border: solid 1px black;
+  font-weight: bolder;
+  font-size: large;
+}
+
+
+/* .header div{
+  border: 2px solid green;
+  width: 80%;
+  display: flex;
+  justify-content:;
+} */
+
+
+
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
